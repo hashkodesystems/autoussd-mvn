@@ -3,11 +3,11 @@
   <groupId>com.autoussd</groupId>
   <artifactId>sdk</artifactId>
   <versioning>
-    <latest>0.1</latest>
-    <release>0.1</release>
+    <latest>0.2-test</latest>
+    <release>0.2-test</release>
     <versions>
-      <version>0.1</version>
+      <version>0.2-test</version>
     </versions>
-    <lastUpdated>20241025101328</lastUpdated>
+    <lastUpdated>20241025102247</lastUpdated>
   </versioning>
 </metadata>
