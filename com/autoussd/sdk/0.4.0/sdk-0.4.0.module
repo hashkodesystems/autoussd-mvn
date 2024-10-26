@@ -1,0 +1,165 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.autoussd",
+    "module": "sdk",
+    "version": "0.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-0.4.0.aar",
+          "url": "sdk-0.4.0.aar",
+          "size": 121646,
+          "sha512": "2bfca6f579ae8c1d1c09b1cc51d485ac9f768c38b53bc59d4660021568a4013f74ad8e9485365ef662fad50bff93995a75ddfb35e9b99c43b0d2e205aeba3738",
+          "sha256": "c94f8186ae94925f9ccc1f4a98d311b56fedca4b98f7117f9ecbe58df2a94276",
+          "sha1": "27e0b226731c567b1c92c02035d04f2c6311d140",
+          "md5": "18d38f713b36eff6438c3da509422a65"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "com.android.volley",
+          "module": "volley",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "org.greenrobot",
+          "module": "eventbus",
+          "version": {
+            "requires": "3.3.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.9.2"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2023.08.00"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-0.4.0.aar",
+          "url": "sdk-0.4.0.aar",
+          "size": 121646,
+          "sha512": "2bfca6f579ae8c1d1c09b1cc51d485ac9f768c38b53bc59d4660021568a4013f74ad8e9485365ef662fad50bff93995a75ddfb35e9b99c43b0d2e205aeba3738",
+          "sha256": "c94f8186ae94925f9ccc1f4a98d311b56fedca4b98f7117f9ecbe58df2a94276",
+          "sha1": "27e0b226731c567b1c92c02035d04f2c6311d140",
+          "md5": "18d38f713b36eff6438c3da509422a65"
+        }
+      ]
+    }
+  ]
+}
